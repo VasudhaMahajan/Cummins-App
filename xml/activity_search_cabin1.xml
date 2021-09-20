@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <EditText
+        android:hint="Faculty Name"
+        android:id="@+id/Faculty"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="50dp"
+        android:backgroundTint="#80CBC4"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp">
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="250dp"
+        android:background="#80CBC4"
+        android:text="view"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_x="30dp"
+        android:layout_y="300dp"
+        android:background="#80CBC4"
+        android:text="view_all"
+        android:layout_margin="50dp"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnShowInfo"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_x="150dp"-->
+        <!--android:layout_y="300dp"-->
+        <!--android:text="show_info"-->
+        <!--android:layout_margin="15dp"-->
+
+    <!--android:background="#80CBC4"/>-->
+
+</LinearLayout>
+</RelativeLayout>

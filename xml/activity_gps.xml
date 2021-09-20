@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.s1.cumminsapp.GPS"
+    android:id="@+id/r_layoutgps"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#BDBDBD"
+        android:id="@+id/textView3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_marginTop="35dp"
+            android:id="@+id/textView6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/viewall"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:text="All hostels on one click!! You can Access all the hostels here 😊😜"
+            android:layout_weight="0.24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="geo"
+            android:background="#80CBC4"
+            android:text="view all!!!"
+            android:id="@+id/viewall"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginTop="35dp"
+            android:id="@+id/textView7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/viewall"
+            android:layout_marginLeft="15dp"
+            android:padding="11dp"
+            android:text="Baya Karve Hostel Complex !!\nRoom: 2 and 3 seater\nFee: Rs.65,000.00"
+            android:layout_weight="0.24" />
+
+        <Button
+            android:id="@+id/bayakarve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="#80CBC4"
+            android:onClick="geo"
+            android:text="Baya Karve "
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/textView8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="0.24"
+            android:padding="15dp"
+            android:text="Yash Laxmi Hostel !!\nRoom: 2 and 3 seater\nFee: Rs.70,000.00" />
+
+        <Button
+            android:id="@+id/yashlaxmi"
+            android:background="#80CBC4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="45dp"
+            android:onClick="geo"
+            android:text="Yash Laxmi"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="60dp">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginTop="35dp"
+            android:id="@+id/textView9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="15dp"
+            android:text="Divekar Hostel !!\nRoom: 2 seater\nFee: Rs.75,000.00\n\n"
+            android:layout_weight="0.24" />
+
+
+        <Button
+            android:id="@+id/divekar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Divekar "
+            android:onClick="geo"
+            android:background="#80CBC4"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            />
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#BDBDBD"
+        android:id="@+id/textView3" />
+
+
+    <EditText
+        android:backgroundTint="#80CBC4"
+        android:textColor="#ffffff"
+        android:id="@+id/editFaculty1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="50dp"
+        android:inputType="text"
+        android:hint="Faculty Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editDepartment1"
+        android:layout_alignStart="@+id/editDepartment1"
+        android:layout_marginTop="20dp" />
+
+
+    <EditText
+        android:backgroundTint="#80CBC4"
+        android:textColor="#ffffff"
+        android:id="@+id/editDepartment1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="100dp"
+        android:inputType="text"
+        android:hint="Department Name"
+        android:layout_above="@+id/editYear1"
+        android:layout_alignLeft="@+id/editYear1"
+        android:layout_alignStart="@+id/editYear1"
+        android:layout_marginBottom="27dp" />
+
+    <EditText
+        android:backgroundTint="#80CBC4"
+        android:textColor="#ffffff"
+        android:id="@+id/editYear1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:inputType="number"
+        android:hint="Year"
+        android:layout_above="@+id/editSubject1"
+        android:layout_alignLeft="@+id/editSubject1"
+        android:layout_alignStart="@+id/editSubject1"
+        android:layout_marginBottom="26dp" />
+
+    <EditText
+        android:backgroundTint="#80CBC4"
+        android:textColor="#ffffff"
+        android:id="@+id/editSubject1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="100dp"
+        android:inputType="text"
+        android:hint="Subject Name"
+        android:layout_above="@+id/editCabin1"
+        android:layout_alignLeft="@+id/editCabin1"
+        android:layout_alignStart="@+id/editCabin1"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:backgroundTint="#80CBC4"
+        android:textColor="#ffffff"
+        android:id="@+id/editCabin1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:hint="Cabin location"
+        android:layout_above="@+id/btnAdd"
+        android:layout_toLeftOf="@+id/btnAdd"
+        android:layout_toStartOf="@+id/btnAdd"
+        android:layout_marginBottom="44dp" />
+
+    <Button
+        android:backgroundTint="#80CBC4"
+        android:id="@+id/btnAdd"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="add"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_alignBaseline="@+id/btnModify"
+        android:layout_alignBottom="@+id/btnModify"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:backgroundTint="#80CBC4"
+        android:id="@+id/btnDelete"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="delete"
+        android:layout_alignBaseline="@+id/btnModify"
+        android:layout_alignBottom="@+id/btnModify"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnModify"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#80CBC4"
+        android:text="modify"
+        android:layout_marginBottom="121dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/editCabin1"
+        android:layout_toStartOf="@+id/editCabin1" />
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.s1.cumminsapp.Search"
+    android:background="#000000"
+    android:id="@+id/r_layout">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#BDBDBD"
+        android:id="@+id/textView3" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Search Cabin"
+        android:id="@+id/view"
+        android:background="#80CBC4"
+        android:onClick="viewCabin"
+        android:layout_marginTop="88dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:background="#80CBC4"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Search Lab"
+        android:id="@+id/view1"
+        android:onClick="viewLab"
+        android:layout_marginTop="86dp"
+        android:layout_below="@+id/view"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view" />
+
+
+    <Button
+
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#80CBC4"
+        android:text="to modify Cabin"
+        android:id="@+id/modifyCabin"
+        android:onClick="modifyall"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_alignBaseline="@+id/view"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="#80CBC4"
+        android:text="to modify Lab"
+        android:id="@+id/modifyLab"
+        android:onClick="modifyLabs"
+        android:layout_alignBaseline="@+id/view1"
+        android:layout_alignBottom="@+id/view1"
+        android:layout_alignLeft="@+id/modifyCabin"
+        android:layout_alignStart="@+id/modifyCabin" />
+
+
+</RelativeLayout>
